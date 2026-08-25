@@ -121,8 +121,3 @@ python audio_analyzer.py
 
 ### Nasıl çalışır?
 `librosa.load()`, sesi örnekleme hızıyla (`sr`) birlikte bir waveform dizisine (`y`) okur. `librosa.beat.beat_track()`, ritmik vuru pozisyonlarını tespit ederek tempoyu tahmin eder. `librosa.feature.spectral_centroid()`, her zaman noktasında frekans spektrumunun "kütle merkezini" hesaplar — daha yüksek değerler daha parlak, tiz ağırlıklı bir sesi gösterir. Spectrogram, `librosa.stft()` (Kısa Süreli Fourier Dönüşümü) ile üretilir, desibele dönüştürülür ve okunabilirlik için logaritmik bir frekans ekseninde gösterilir.
-
----
-
-## Author
-**Yavuz Selim** — Aspiring Python Developer, working toward an IT Ausbildung in Germany.
