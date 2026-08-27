@@ -9,7 +9,7 @@ An audio analysis script built with **librosa**. Estimates tempo (BPM), spectral
 
 ## 🇬🇧 English.
 
-### Overview
+### Overview.
 This script loads an audio file and extracts several analytical features: estimated tempo (BPM), spectral centroid (a measure of "brightness"), and total duration. It then renders two plots — a waveform and a spectrogram — for visual inspection.
 
 ### Features
